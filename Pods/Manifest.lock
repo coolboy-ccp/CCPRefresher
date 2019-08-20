@@ -1,0 +1,16 @@
+PODS:
+  - CCPFrame (1.0.0)
+
+DEPENDENCIES:
+  - CCPFrame
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CCPFrame
+
+SPEC CHECKSUMS:
+  CCPFrame: c9b134e9cc069af114aff6328248ed79e9739a5d
+
+PODFILE CHECKSUM: 179435076737d91a74c42b5bdf8e2dda8e42edf8
+
+COCOAPODS: 1.6.1

@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C62788007D15733E1F94BD7 /* Pods_CCPRefresher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF58F8F831760BA79A367D3 /* Pods_CCPRefresher.framework */; };
+		7EE742EC230B90C8000FB0E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE742EB230B90C8000FB0E4 /* AppDelegate.swift */; };
+		7EE742EE230B90C8000FB0E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE742ED230B90C8000FB0E4 /* ViewController.swift */; };
+		7EE742F1230B90C8000FB0E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EE742EF230B90C8000FB0E4 /* Main.storyboard */; };
+		7EE742F3230B90CA000FB0E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EE742F2230B90CA000FB0E4 /* Assets.xcassets */; };
+		7EE742F6230B90CA000FB0E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EE742F4230B90CA000FB0E4 /* LaunchScreen.storyboard */; };
+		7EE74302230B9149000FB0E4 /* Refresher.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7EE74304230B9149000FB0E4 /* Refresher.strings */; };
+		7EE74308230B91BF000FB0E4 /* RefresherBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE74307230B91BF000FB0E4 /* RefresherBase.swift */; };
+		7EE7430A230B91CF000FB0E4 /* RefresherHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE74309230B91CF000FB0E4 /* RefresherHeader.swift */; };
+		7EE7430C230B91DC000FB0E4 /* RefresherFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE7430B230B91DC000FB0E4 /* RefresherFooter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		297BE369438A1D49007606E1 /* Pods-CCPRefresher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCPRefresher.release.xcconfig"; path = "Target Support Files/Pods-CCPRefresher/Pods-CCPRefresher.release.xcconfig"; sourceTree = "<group>"; };
+		7EE742E8230B90C8000FB0E4 /* CCPRefresher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCPRefresher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EE742EB230B90C8000FB0E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7EE742ED230B90C8000FB0E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7EE742F0230B90C8000FB0E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7EE742F2230B90CA000FB0E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7EE742F5230B90CA000FB0E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7EE742F7230B90CA000FB0E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EE74303230B9149000FB0E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Refresher.strings; sourceTree = "<group>"; };
+		7EE74305230B9176000FB0E4 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Refresher.strings"; sourceTree = "<group>"; };
+		7EE74307230B91BF000FB0E4 /* RefresherBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefresherBase.swift; sourceTree = "<group>"; };
+		7EE74309230B91CF000FB0E4 /* RefresherHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefresherHeader.swift; sourceTree = "<group>"; };
+		7EE7430B230B91DC000FB0E4 /* RefresherFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefresherFooter.swift; sourceTree = "<group>"; };
+		A78A2C3211828681C1CF563F /* Pods-CCPRefresher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCPRefresher.debug.xcconfig"; path = "Target Support Files/Pods-CCPRefresher/Pods-CCPRefresher.debug.xcconfig"; sourceTree = "<group>"; };
+		ECF58F8F831760BA79A367D3 /* Pods_CCPRefresher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCPRefresher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EE742E5230B90C8000FB0E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C62788007D15733E1F94BD7 /* Pods_CCPRefresher.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3ECB6D8FE9A357F836F7607A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A78A2C3211828681C1CF563F /* Pods-CCPRefresher.debug.xcconfig */,
+				297BE369438A1D49007606E1 /* Pods-CCPRefresher.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4BB84C65AB0964CA39A44B90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECF58F8F831760BA79A367D3 /* Pods_CCPRefresher.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7EE742DF230B90C8000FB0E4 = {
+			isa = PBXGroup;
+			children = (
+				7EE742FD230B90D6000FB0E4 /* Refresher */,
+				7EE742EA230B90C8000FB0E4 /* CCPRefresher */,
+				7EE742E9230B90C8000FB0E4 /* Products */,
+				3ECB6D8FE9A357F836F7607A /* Pods */,
+				4BB84C65AB0964CA39A44B90 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7EE742E9230B90C8000FB0E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EE742E8230B90C8000FB0E4 /* CCPRefresher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EE742EA230B90C8000FB0E4 /* CCPRefresher */ = {
+			isa = PBXGroup;
+			children = (
+				7EE742EB230B90C8000FB0E4 /* AppDelegate.swift */,
+				7EE742ED230B90C8000FB0E4 /* ViewController.swift */,
+				7EE742EF230B90C8000FB0E4 /* Main.storyboard */,
+				7EE742F2230B90CA000FB0E4 /* Assets.xcassets */,
+				7EE742F4230B90CA000FB0E4 /* LaunchScreen.storyboard */,
+				7EE742F7230B90CA000FB0E4 /* Info.plist */,
+			);
+			path = CCPRefresher;
+			sourceTree = "<group>";
+		};
+		7EE742FD230B90D6000FB0E4 /* Refresher */ = {
+			isa = PBXGroup;
+			children = (
+				7EE74306230B9198000FB0E4 /* Resource */,
+				7EE74307230B91BF000FB0E4 /* RefresherBase.swift */,
+				7EE74309230B91CF000FB0E4 /* RefresherHeader.swift */,
+				7EE7430B230B91DC000FB0E4 /* RefresherFooter.swift */,
+			);
+			path = Refresher;
+			sourceTree = "<group>";
+		};
+		7EE74306230B9198000FB0E4 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				7EE74304230B9149000FB0E4 /* Refresher.strings */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EE742E7230B90C8000FB0E4 /* CCPRefresher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EE742FA230B90CA000FB0E4 /* Build configuration list for PBXNativeTarget "CCPRefresher" */;
+			buildPhases = (
+				BA419C2E738AFBB62FE179D4 /* [CP] Check Pods Manifest.lock */,
+				7EE742E4230B90C8000FB0E4 /* Sources */,
+				7EE742E5230B90C8000FB0E4 /* Frameworks */,
+				7EE742E6230B90C8000FB0E4 /* Resources */,
+				743B9420499A794EF6EF10F3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCPRefresher;
+			productName = CCPRefresher;
+			productReference = 7EE742E8230B90C8000FB0E4 /* CCPRefresher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EE742E0230B90C8000FB0E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "cool-ccp";
+				TargetAttributes = {
+					7EE742E7230B90C8000FB0E4 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 7EE742E3230B90C8000FB0E4 /* Build configuration list for PBXProject "CCPRefresher" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 7EE742DF230B90C8000FB0E4;
+			productRefGroup = 7EE742E9230B90C8000FB0E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EE742E7230B90C8000FB0E4 /* CCPRefresher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EE742E6230B90C8000FB0E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EE742F6230B90CA000FB0E4 /* LaunchScreen.storyboard in Resources */,
+				7EE74302230B9149000FB0E4 /* Refresher.strings in Resources */,
+				7EE742F3230B90CA000FB0E4 /* Assets.xcassets in Resources */,
+				7EE742F1230B90C8000FB0E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		743B9420499A794EF6EF10F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CCPRefresher/Pods-CCPRefresher-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CCPFrame/CCPFrame.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CCPFrame.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CCPRefresher/Pods-CCPRefresher-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA419C2E738AFBB62FE179D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CCPRefresher-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EE742E4230B90C8000FB0E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EE7430C230B91DC000FB0E4 /* RefresherFooter.swift in Sources */,
+				7EE742EE230B90C8000FB0E4 /* ViewController.swift in Sources */,
+				7EE74308230B91BF000FB0E4 /* RefresherBase.swift in Sources */,
+				7EE742EC230B90C8000FB0E4 /* AppDelegate.swift in Sources */,
+				7EE7430A230B91CF000FB0E4 /* RefresherHeader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7EE742EF230B90C8000FB0E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EE742F0230B90C8000FB0E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7EE742F4230B90CA000FB0E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EE742F5230B90CA000FB0E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7EE74304230B9149000FB0E4 /* Refresher.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EE74303230B9149000FB0E4 /* en */,
+				7EE74305230B9176000FB0E4 /* zh-Hans */,
+			);
+			name = Refresher.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7EE742F8230B90CA000FB0E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7EE742F9230B90CA000FB0E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EE742FB230B90CA000FB0E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A78A2C3211828681C1CF563F /* Pods-CCPRefresher.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ND2NE475A9;
+				INFOPLIST_FILE = CCPRefresher/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cool-ccp.CCPRefresher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7EE742FC230B90CA000FB0E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 297BE369438A1D49007606E1 /* Pods-CCPRefresher.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ND2NE475A9;
+				INFOPLIST_FILE = CCPRefresher/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cool-ccp.CCPRefresher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EE742E3230B90C8000FB0E4 /* Build configuration list for PBXProject "CCPRefresher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EE742F8230B90CA000FB0E4 /* Debug */,
+				7EE742F9230B90CA000FB0E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EE742FA230B90CA000FB0E4 /* Build configuration list for PBXNativeTarget "CCPRefresher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EE742FB230B90CA000FB0E4 /* Debug */,
+				7EE742FC230B90CA000FB0E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7EE742E0230B90C8000FB0E4 /* Project object */;
+}
