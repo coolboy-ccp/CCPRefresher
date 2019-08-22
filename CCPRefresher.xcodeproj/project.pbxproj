@@ -13,10 +13,13 @@
 		7EE742F1230B90C8000FB0E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EE742EF230B90C8000FB0E4 /* Main.storyboard */; };
 		7EE742F3230B90CA000FB0E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EE742F2230B90CA000FB0E4 /* Assets.xcassets */; };
 		7EE742F6230B90CA000FB0E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EE742F4230B90CA000FB0E4 /* LaunchScreen.storyboard */; };
-		7EE74302230B9149000FB0E4 /* Refresher.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7EE74304230B9149000FB0E4 /* Refresher.strings */; };
-		7EE74308230B91BF000FB0E4 /* RefresherBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE74307230B91BF000FB0E4 /* RefresherBase.swift */; };
-		7EE7430A230B91CF000FB0E4 /* RefresherHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE74309230B91CF000FB0E4 /* RefresherHeader.swift */; };
-		7EE7430C230B91DC000FB0E4 /* RefresherFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE7430B230B91DC000FB0E4 /* RefresherFooter.swift */; };
+		7EE74353230BD88A000FB0E4 /* RefresherHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE7434C230BD88A000FB0E4 /* RefresherHeader.swift */; };
+		7EE74354230BD88A000FB0E4 /* RefresherBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE7434D230BD88A000FB0E4 /* RefresherBase.swift */; };
+		7EE74355230BD88A000FB0E4 /* RefresherFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE7434E230BD88A000FB0E4 /* RefresherFooter.swift */; };
+		7EE74356230BD88A000FB0E4 /* Refresher.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7EE74350230BD88A000FB0E4 /* Refresher.strings */; };
+		7EE74358230BD926000FB0E4 /* RefresherError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE74357230BD926000FB0E4 /* RefresherError.swift */; };
+		7EE7437A230E2832000FB0E4 /* RefresherConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE74379230E2832000FB0E4 /* RefresherConfig.swift */; };
+		7EE7437C230E6A4A000FB0E4 /* RefresherDateTransfer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE7437B230E6A4A000FB0E4 /* RefresherDateTransfer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,11 +31,14 @@
 		7EE742F2230B90CA000FB0E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EE742F5230B90CA000FB0E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7EE742F7230B90CA000FB0E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7EE74303230B9149000FB0E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Refresher.strings; sourceTree = "<group>"; };
-		7EE74305230B9176000FB0E4 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Refresher.strings"; sourceTree = "<group>"; };
-		7EE74307230B91BF000FB0E4 /* RefresherBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefresherBase.swift; sourceTree = "<group>"; };
-		7EE74309230B91CF000FB0E4 /* RefresherHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefresherHeader.swift; sourceTree = "<group>"; };
-		7EE7430B230B91DC000FB0E4 /* RefresherFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefresherFooter.swift; sourceTree = "<group>"; };
+		7EE7434C230BD88A000FB0E4 /* RefresherHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefresherHeader.swift; sourceTree = "<group>"; };
+		7EE7434D230BD88A000FB0E4 /* RefresherBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefresherBase.swift; sourceTree = "<group>"; };
+		7EE7434E230BD88A000FB0E4 /* RefresherFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefresherFooter.swift; sourceTree = "<group>"; };
+		7EE74351230BD88A000FB0E4 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Refresher.strings"; sourceTree = "<group>"; };
+		7EE74352230BD88A000FB0E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Refresher.strings; sourceTree = "<group>"; };
+		7EE74357230BD926000FB0E4 /* RefresherError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefresherError.swift; sourceTree = "<group>"; };
+		7EE74379230E2832000FB0E4 /* RefresherConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefresherConfig.swift; sourceTree = "<group>"; };
+		7EE7437B230E6A4A000FB0E4 /* RefresherDateTransfer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefresherDateTransfer.swift; sourceTree = "<group>"; };
 		A78A2C3211828681C1CF563F /* Pods-CCPRefresher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCPRefresher.debug.xcconfig"; path = "Target Support Files/Pods-CCPRefresher/Pods-CCPRefresher.debug.xcconfig"; sourceTree = "<group>"; };
 		ECF58F8F831760BA79A367D3 /* Pods_CCPRefresher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCPRefresher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -55,7 +61,6 @@
 				A78A2C3211828681C1CF563F /* Pods-CCPRefresher.debug.xcconfig */,
 				297BE369438A1D49007606E1 /* Pods-CCPRefresher.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -70,7 +75,6 @@
 		7EE742DF230B90C8000FB0E4 = {
 			isa = PBXGroup;
 			children = (
-				7EE742FD230B90D6000FB0E4 /* Refresher */,
 				7EE742EA230B90C8000FB0E4 /* CCPRefresher */,
 				7EE742E9230B90C8000FB0E4 /* Products */,
 				3ECB6D8FE9A357F836F7607A /* Pods */,
@@ -89,6 +93,7 @@
 		7EE742EA230B90C8000FB0E4 /* CCPRefresher */ = {
 			isa = PBXGroup;
 			children = (
+				7EE7434B230BD88A000FB0E4 /* Refresher */,
 				7EE742EB230B90C8000FB0E4 /* AppDelegate.swift */,
 				7EE742ED230B90C8000FB0E4 /* ViewController.swift */,
 				7EE742EF230B90C8000FB0E4 /* Main.storyboard */,
@@ -99,21 +104,24 @@
 			path = CCPRefresher;
 			sourceTree = "<group>";
 		};
-		7EE742FD230B90D6000FB0E4 /* Refresher */ = {
+		7EE7434B230BD88A000FB0E4 /* Refresher */ = {
 			isa = PBXGroup;
 			children = (
-				7EE74306230B9198000FB0E4 /* Resource */,
-				7EE74307230B91BF000FB0E4 /* RefresherBase.swift */,
-				7EE74309230B91CF000FB0E4 /* RefresherHeader.swift */,
-				7EE7430B230B91DC000FB0E4 /* RefresherFooter.swift */,
+				7EE7434C230BD88A000FB0E4 /* RefresherHeader.swift */,
+				7EE7434D230BD88A000FB0E4 /* RefresherBase.swift */,
+				7EE7434E230BD88A000FB0E4 /* RefresherFooter.swift */,
+				7EE74357230BD926000FB0E4 /* RefresherError.swift */,
+				7EE74379230E2832000FB0E4 /* RefresherConfig.swift */,
+				7EE7437B230E6A4A000FB0E4 /* RefresherDateTransfer.swift */,
+				7EE7434F230BD88A000FB0E4 /* Resource */,
 			);
 			path = Refresher;
 			sourceTree = "<group>";
 		};
-		7EE74306230B9198000FB0E4 /* Resource */ = {
+		7EE7434F230BD88A000FB0E4 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				7EE74304230B9149000FB0E4 /* Refresher.strings */,
+				7EE74350230BD88A000FB0E4 /* Refresher.strings */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -180,9 +188,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EE742F6230B90CA000FB0E4 /* LaunchScreen.storyboard in Resources */,
-				7EE74302230B9149000FB0E4 /* Refresher.strings in Resources */,
 				7EE742F3230B90CA000FB0E4 /* Assets.xcassets in Resources */,
 				7EE742F1230B90C8000FB0E4 /* Main.storyboard in Resources */,
+				7EE74356230BD88A000FB0E4 /* Refresher.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,11 +248,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EE7430C230B91DC000FB0E4 /* RefresherFooter.swift in Sources */,
+				7EE7437A230E2832000FB0E4 /* RefresherConfig.swift in Sources */,
+				7EE74355230BD88A000FB0E4 /* RefresherFooter.swift in Sources */,
+				7EE7437C230E6A4A000FB0E4 /* RefresherDateTransfer.swift in Sources */,
+				7EE74353230BD88A000FB0E4 /* RefresherHeader.swift in Sources */,
 				7EE742EE230B90C8000FB0E4 /* ViewController.swift in Sources */,
-				7EE74308230B91BF000FB0E4 /* RefresherBase.swift in Sources */,
 				7EE742EC230B90C8000FB0E4 /* AppDelegate.swift in Sources */,
-				7EE7430A230B91CF000FB0E4 /* RefresherHeader.swift in Sources */,
+				7EE74354230BD88A000FB0E4 /* RefresherBase.swift in Sources */,
+				7EE74358230BD926000FB0E4 /* RefresherError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,11 +278,11 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		7EE74304230B9149000FB0E4 /* Refresher.strings */ = {
+		7EE74350230BD88A000FB0E4 /* Refresher.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7EE74303230B9149000FB0E4 /* en */,
-				7EE74305230B9176000FB0E4 /* zh-Hans */,
+				7EE74351230BD88A000FB0E4 /* zh-Hans */,
+				7EE74352230BD88A000FB0E4 /* en */,
 			);
 			name = Refresher.strings;
 			sourceTree = "<group>";

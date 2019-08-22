@@ -8,8 +8,15 @@
 
 import UIKit
 
-class RefresherFooter {
+class RefresherFooter: RefresherBase {
+    override func prepare() {
+        super.prepare()
+        self.vf_h = RefresherLayout.footerHeight
+    }
     
+    func noMore() {
+        state = .noMoreData
+    }
     
 
 }
