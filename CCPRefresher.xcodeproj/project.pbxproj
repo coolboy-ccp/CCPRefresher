@@ -8,22 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		0C62788007D15733E1F94BD7 /* Pods_CCPRefresher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF58F8F831760BA79A367D3 /* Pods_CCPRefresher.framework */; };
+		7E09F9B42320FF05009620E3 /* Refresher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E09F9B32320FF05009620E3 /* Refresher.swift */; };
+		7E09F9B6232108A3009620E3 /* RefresherTop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E09F9B5232108A3009620E3 /* RefresherTop.swift */; };
+		7E09F9B823210E7C009620E3 /* RefresherBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E09F9B723210E7C009620E3 /* RefresherBridge.swift */; };
+		7E09F9BA232114DF009620E3 /* RefresherBottom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E09F9B9232114DF009620E3 /* RefresherBottom.swift */; };
 		7EE742EC230B90C8000FB0E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE742EB230B90C8000FB0E4 /* AppDelegate.swift */; };
 		7EE742EE230B90C8000FB0E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE742ED230B90C8000FB0E4 /* ViewController.swift */; };
 		7EE742F1230B90C8000FB0E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EE742EF230B90C8000FB0E4 /* Main.storyboard */; };
 		7EE742F3230B90CA000FB0E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EE742F2230B90CA000FB0E4 /* Assets.xcassets */; };
 		7EE742F6230B90CA000FB0E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EE742F4230B90CA000FB0E4 /* LaunchScreen.storyboard */; };
-		7EE74353230BD88A000FB0E4 /* RefresherHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE7434C230BD88A000FB0E4 /* RefresherHeader.swift */; };
-		7EE74354230BD88A000FB0E4 /* RefresherBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE7434D230BD88A000FB0E4 /* RefresherBase.swift */; };
-		7EE74355230BD88A000FB0E4 /* RefresherFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE7434E230BD88A000FB0E4 /* RefresherFooter.swift */; };
-		7EE74356230BD88A000FB0E4 /* Refresher.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7EE74350230BD88A000FB0E4 /* Refresher.strings */; };
-		7EE74358230BD926000FB0E4 /* RefresherError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE74357230BD926000FB0E4 /* RefresherError.swift */; };
-		7EE7437A230E2832000FB0E4 /* RefresherConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE74379230E2832000FB0E4 /* RefresherConfig.swift */; };
-		7EE7437C230E6A4A000FB0E4 /* RefresherDateTransfer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE7437B230E6A4A000FB0E4 /* RefresherDateTransfer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		297BE369438A1D49007606E1 /* Pods-CCPRefresher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCPRefresher.release.xcconfig"; path = "Target Support Files/Pods-CCPRefresher/Pods-CCPRefresher.release.xcconfig"; sourceTree = "<group>"; };
+		7E09F9B32320FF05009620E3 /* Refresher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refresher.swift; sourceTree = "<group>"; };
+		7E09F9B5232108A3009620E3 /* RefresherTop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefresherTop.swift; sourceTree = "<group>"; };
+		7E09F9B723210E7C009620E3 /* RefresherBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefresherBridge.swift; sourceTree = "<group>"; };
+		7E09F9B9232114DF009620E3 /* RefresherBottom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefresherBottom.swift; sourceTree = "<group>"; };
 		7EE742E8230B90C8000FB0E4 /* CCPRefresher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCPRefresher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EE742EB230B90C8000FB0E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7EE742ED230B90C8000FB0E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -31,14 +32,6 @@
 		7EE742F2230B90CA000FB0E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EE742F5230B90CA000FB0E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7EE742F7230B90CA000FB0E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7EE7434C230BD88A000FB0E4 /* RefresherHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefresherHeader.swift; sourceTree = "<group>"; };
-		7EE7434D230BD88A000FB0E4 /* RefresherBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefresherBase.swift; sourceTree = "<group>"; };
-		7EE7434E230BD88A000FB0E4 /* RefresherFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefresherFooter.swift; sourceTree = "<group>"; };
-		7EE74351230BD88A000FB0E4 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Refresher.strings"; sourceTree = "<group>"; };
-		7EE74352230BD88A000FB0E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Refresher.strings; sourceTree = "<group>"; };
-		7EE74357230BD926000FB0E4 /* RefresherError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefresherError.swift; sourceTree = "<group>"; };
-		7EE74379230E2832000FB0E4 /* RefresherConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefresherConfig.swift; sourceTree = "<group>"; };
-		7EE7437B230E6A4A000FB0E4 /* RefresherDateTransfer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefresherDateTransfer.swift; sourceTree = "<group>"; };
 		A78A2C3211828681C1CF563F /* Pods-CCPRefresher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCPRefresher.debug.xcconfig"; path = "Target Support Files/Pods-CCPRefresher/Pods-CCPRefresher.debug.xcconfig"; sourceTree = "<group>"; };
 		ECF58F8F831760BA79A367D3 /* Pods_CCPRefresher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCPRefresher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -72,6 +65,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7E09F9B22320FEE9009620E3 /* Refresh */ = {
+			isa = PBXGroup;
+			children = (
+				7E09F9B32320FF05009620E3 /* Refresher.swift */,
+				7E09F9B5232108A3009620E3 /* RefresherTop.swift */,
+				7E09F9B9232114DF009620E3 /* RefresherBottom.swift */,
+				7E09F9B723210E7C009620E3 /* RefresherBridge.swift */,
+			);
+			path = Refresh;
+			sourceTree = "<group>";
+		};
 		7EE742DF230B90C8000FB0E4 = {
 			isa = PBXGroup;
 			children = (
@@ -93,7 +97,7 @@
 		7EE742EA230B90C8000FB0E4 /* CCPRefresher */ = {
 			isa = PBXGroup;
 			children = (
-				7EE7434B230BD88A000FB0E4 /* Refresher */,
+				7E09F9B22320FEE9009620E3 /* Refresh */,
 				7EE742EB230B90C8000FB0E4 /* AppDelegate.swift */,
 				7EE742ED230B90C8000FB0E4 /* ViewController.swift */,
 				7EE742EF230B90C8000FB0E4 /* Main.storyboard */,
@@ -102,28 +106,6 @@
 				7EE742F7230B90CA000FB0E4 /* Info.plist */,
 			);
 			path = CCPRefresher;
-			sourceTree = "<group>";
-		};
-		7EE7434B230BD88A000FB0E4 /* Refresher */ = {
-			isa = PBXGroup;
-			children = (
-				7EE7434C230BD88A000FB0E4 /* RefresherHeader.swift */,
-				7EE7434D230BD88A000FB0E4 /* RefresherBase.swift */,
-				7EE7434E230BD88A000FB0E4 /* RefresherFooter.swift */,
-				7EE74357230BD926000FB0E4 /* RefresherError.swift */,
-				7EE74379230E2832000FB0E4 /* RefresherConfig.swift */,
-				7EE7437B230E6A4A000FB0E4 /* RefresherDateTransfer.swift */,
-				7EE7434F230BD88A000FB0E4 /* Resource */,
-			);
-			path = Refresher;
-			sourceTree = "<group>";
-		};
-		7EE7434F230BD88A000FB0E4 /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-				7EE74350230BD88A000FB0E4 /* Refresher.strings */,
-			);
-			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,7 +172,6 @@
 				7EE742F6230B90CA000FB0E4 /* LaunchScreen.storyboard in Resources */,
 				7EE742F3230B90CA000FB0E4 /* Assets.xcassets in Resources */,
 				7EE742F1230B90C8000FB0E4 /* Main.storyboard in Resources */,
-				7EE74356230BD88A000FB0E4 /* Refresher.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,14 +229,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EE7437A230E2832000FB0E4 /* RefresherConfig.swift in Sources */,
-				7EE74355230BD88A000FB0E4 /* RefresherFooter.swift in Sources */,
-				7EE7437C230E6A4A000FB0E4 /* RefresherDateTransfer.swift in Sources */,
-				7EE74353230BD88A000FB0E4 /* RefresherHeader.swift in Sources */,
+				7E09F9B42320FF05009620E3 /* Refresher.swift in Sources */,
 				7EE742EE230B90C8000FB0E4 /* ViewController.swift in Sources */,
+				7E09F9B6232108A3009620E3 /* RefresherTop.swift in Sources */,
+				7E09F9BA232114DF009620E3 /* RefresherBottom.swift in Sources */,
+				7E09F9B823210E7C009620E3 /* RefresherBridge.swift in Sources */,
 				7EE742EC230B90C8000FB0E4 /* AppDelegate.swift in Sources */,
-				7EE74354230BD88A000FB0E4 /* RefresherBase.swift in Sources */,
-				7EE74358230BD926000FB0E4 /* RefresherError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,15 +255,6 @@
 				7EE742F5230B90CA000FB0E4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		7EE74350230BD88A000FB0E4 /* Refresher.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7EE74351230BD88A000FB0E4 /* zh-Hans */,
-				7EE74352230BD88A000FB0E4 /* en */,
-			);
-			name = Refresher.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
