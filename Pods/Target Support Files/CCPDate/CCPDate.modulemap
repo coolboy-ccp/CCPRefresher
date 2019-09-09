@@ -1,0 +1,6 @@
+framework module CCPDate {
+  umbrella header "CCPDate-umbrella.h"
+
+  export *
+  module * { export * }
+}

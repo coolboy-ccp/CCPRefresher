@@ -1,0 +1,6 @@
+framework module CCPColor {
+  umbrella header "CCPColor-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -3,4 +3,7 @@ use_frameworks!
 
 target 'CCPRefresher' do
 pod 'CCPFrame'
+pod 'CCPColor'
+pod 'CCPDate'
+pod 'SnapKit'
 end

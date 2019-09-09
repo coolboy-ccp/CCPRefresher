@@ -14,7 +14,24 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         scrollview.contentInset = UIEdgeInsets(top: 50, left: 0, bottom: 50, right: 0)
-        scrollview.refresh(.top)
+        scrollview.ccp.autoRefresh {
+            self.refreshing()
+        }
+        scrollview.ccp.loadMore {
+            self.loadMore()
+        }
+    }
+    
+    private func refreshing() {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+            self.scrollview.ccp.top?.finish()
+        }
+    }
+    
+    private func loadMore() {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+            self.scrollview.ccp.bottom?.finish()
+        }
     }
     
 }

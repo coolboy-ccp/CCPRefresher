@@ -9,9 +9,14 @@
 /* Begin PBXBuildFile section */
 		0C62788007D15733E1F94BD7 /* Pods_CCPRefresher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF58F8F831760BA79A367D3 /* Pods_CCPRefresher.framework */; };
 		7E09F9B42320FF05009620E3 /* Refresher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E09F9B32320FF05009620E3 /* Refresher.swift */; };
-		7E09F9B6232108A3009620E3 /* RefresherTop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E09F9B5232108A3009620E3 /* RefresherTop.swift */; };
-		7E09F9B823210E7C009620E3 /* RefresherBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E09F9B723210E7C009620E3 /* RefresherBridge.swift */; };
-		7E09F9BA232114DF009620E3 /* RefresherBottom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E09F9B9232114DF009620E3 /* RefresherBottom.swift */; };
+		7E4319822325F399005D5136 /* CCPRefresherBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4319812325F399005D5136 /* CCPRefresherBase.swift */; };
+		7E4319862325FE77005D5136 /* RefresherTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4319852325FE77005D5136 /* RefresherTime.swift */; };
+		7E7E1EB3232203F8005A6C59 /* CCPRefresher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7E1EB2232203F8005A6C59 /* CCPRefresher.swift */; };
+		7E7E1EB723223C20005A6C59 /* LabelRefrehser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7E1EB623223C20005A6C59 /* LabelRefrehser.swift */; };
+		7E7E1EB923223CD8005A6C59 /* LabelLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7E1EB823223CD8005A6C59 /* LabelLoader.swift */; };
+		7E7E1EBB23223CE8005A6C59 /* GifRefresher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7E1EBA23223CE8005A6C59 /* GifRefresher.swift */; };
+		7E7E1EBD23223CF9005A6C59 /* GifLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7E1EBC23223CF9005A6C59 /* GifLoader.swift */; };
+		7E7E1EBF2322615B005A6C59 /* RefresherConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7E1EBE2322615B005A6C59 /* RefresherConfig.swift */; };
 		7EE742EC230B90C8000FB0E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE742EB230B90C8000FB0E4 /* AppDelegate.swift */; };
 		7EE742EE230B90C8000FB0E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE742ED230B90C8000FB0E4 /* ViewController.swift */; };
 		7EE742F1230B90C8000FB0E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EE742EF230B90C8000FB0E4 /* Main.storyboard */; };
@@ -22,9 +27,14 @@
 /* Begin PBXFileReference section */
 		297BE369438A1D49007606E1 /* Pods-CCPRefresher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCPRefresher.release.xcconfig"; path = "Target Support Files/Pods-CCPRefresher/Pods-CCPRefresher.release.xcconfig"; sourceTree = "<group>"; };
 		7E09F9B32320FF05009620E3 /* Refresher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refresher.swift; sourceTree = "<group>"; };
-		7E09F9B5232108A3009620E3 /* RefresherTop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefresherTop.swift; sourceTree = "<group>"; };
-		7E09F9B723210E7C009620E3 /* RefresherBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefresherBridge.swift; sourceTree = "<group>"; };
-		7E09F9B9232114DF009620E3 /* RefresherBottom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefresherBottom.swift; sourceTree = "<group>"; };
+		7E4319812325F399005D5136 /* CCPRefresherBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCPRefresherBase.swift; sourceTree = "<group>"; };
+		7E4319852325FE77005D5136 /* RefresherTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefresherTime.swift; sourceTree = "<group>"; };
+		7E7E1EB2232203F8005A6C59 /* CCPRefresher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCPRefresher.swift; sourceTree = "<group>"; };
+		7E7E1EB623223C20005A6C59 /* LabelRefrehser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelRefrehser.swift; sourceTree = "<group>"; };
+		7E7E1EB823223CD8005A6C59 /* LabelLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelLoader.swift; sourceTree = "<group>"; };
+		7E7E1EBA23223CE8005A6C59 /* GifRefresher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifRefresher.swift; sourceTree = "<group>"; };
+		7E7E1EBC23223CF9005A6C59 /* GifLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifLoader.swift; sourceTree = "<group>"; };
+		7E7E1EBE2322615B005A6C59 /* RefresherConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefresherConfig.swift; sourceTree = "<group>"; };
 		7EE742E8230B90C8000FB0E4 /* CCPRefresher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCPRefresher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EE742EB230B90C8000FB0E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7EE742ED230B90C8000FB0E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -68,10 +78,15 @@
 		7E09F9B22320FEE9009620E3 /* Refresh */ = {
 			isa = PBXGroup;
 			children = (
+				7E7E1EB2232203F8005A6C59 /* CCPRefresher.swift */,
+				7E4319852325FE77005D5136 /* RefresherTime.swift */,
 				7E09F9B32320FF05009620E3 /* Refresher.swift */,
-				7E09F9B5232108A3009620E3 /* RefresherTop.swift */,
-				7E09F9B9232114DF009620E3 /* RefresherBottom.swift */,
-				7E09F9B723210E7C009620E3 /* RefresherBridge.swift */,
+				7E7E1EBE2322615B005A6C59 /* RefresherConfig.swift */,
+				7E7E1EB623223C20005A6C59 /* LabelRefrehser.swift */,
+				7E7E1EB823223CD8005A6C59 /* LabelLoader.swift */,
+				7E7E1EBA23223CE8005A6C59 /* GifRefresher.swift */,
+				7E7E1EBC23223CF9005A6C59 /* GifLoader.swift */,
+				7E4319812325F399005D5136 /* CCPRefresherBase.swift */,
 			);
 			path = Refresh;
 			sourceTree = "<group>";
@@ -187,13 +202,19 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-CCPRefresher/Pods-CCPRefresher-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CCPColor/CCPColor.framework",
+				"${BUILT_PRODUCTS_DIR}/CCPDate/CCPDate.framework",
 				"${BUILT_PRODUCTS_DIR}/CCPFrame/CCPFrame.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CCPColor.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CCPDate.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CCPFrame.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -231,10 +252,15 @@
 			files = (
 				7E09F9B42320FF05009620E3 /* Refresher.swift in Sources */,
 				7EE742EE230B90C8000FB0E4 /* ViewController.swift in Sources */,
-				7E09F9B6232108A3009620E3 /* RefresherTop.swift in Sources */,
-				7E09F9BA232114DF009620E3 /* RefresherBottom.swift in Sources */,
-				7E09F9B823210E7C009620E3 /* RefresherBridge.swift in Sources */,
+				7E7E1EB723223C20005A6C59 /* LabelRefrehser.swift in Sources */,
 				7EE742EC230B90C8000FB0E4 /* AppDelegate.swift in Sources */,
+				7E7E1EB3232203F8005A6C59 /* CCPRefresher.swift in Sources */,
+				7E7E1EB923223CD8005A6C59 /* LabelLoader.swift in Sources */,
+				7E7E1EBB23223CE8005A6C59 /* GifRefresher.swift in Sources */,
+				7E4319862325FE77005D5136 /* RefresherTime.swift in Sources */,
+				7E7E1EBF2322615B005A6C59 /* RefresherConfig.swift in Sources */,
+				7E4319822325F399005D5136 /* CCPRefresherBase.swift in Sources */,
+				7E7E1EBD23223CF9005A6C59 /* GifLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

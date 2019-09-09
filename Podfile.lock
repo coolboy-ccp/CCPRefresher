@@ -1,16 +1,28 @@
 PODS:
+  - CCPColor (1.0.0)
+  - CCPDate (1.0.0)
   - CCPFrame (1.0.0)
+  - SnapKit (5.0.1)
 
 DEPENDENCIES:
+  - CCPColor
+  - CCPDate
   - CCPFrame
+  - SnapKit
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - CCPColor
+    - CCPDate
     - CCPFrame
+    - SnapKit
 
 SPEC CHECKSUMS:
+  CCPColor: 83915dd624f7fdbb66ff7bd360499ac51c7cf294
+  CCPDate: 1f3466f430a130272d8b3fcf7dc88fc76f365bd5
   CCPFrame: c9b134e9cc069af114aff6328248ed79e9739a5d
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
 
-PODFILE CHECKSUM: 179435076737d91a74c42b5bdf8e2dda8e42edf8
+PODFILE CHECKSUM: 4623301669d88e9e3bb5f72d8e55c33c4b717476
 
 COCOAPODS: 1.6.1
